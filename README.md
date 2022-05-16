@@ -10,7 +10,7 @@ pip install pandas
 pip install scipy
 ```
 
-You need to add the file MDAIO to the python path
+You need to add the file mdaio to the python path
 
 ## Running the script
 Directory = Path to file you want to downsample
