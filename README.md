@@ -9,7 +9,12 @@ pip install numpy
 pip install pandas
 pip install scipy
 ```
-## Running the script
+
 You need to add the file MDAIO to the python path
-tehn u can modify directory and the list of tetrode et num of the rat and run the script
+
+## Running the script
+Directory = Path to file you want to downsample
+Name = name of the mda file without the number of the tetrode (EXEMPLE = name = 'Rat_Hm_Ephys_Rat2_389237_20200915_postsleep.nt3.mda' -> Rat_Hm_Ephys_Rat2_389237_20200915_postsleep.nt
+
+You can modify the directory, the name of the name file and the list of tetrode and run the script
 The output should be a mda file for each tetrode of your recording downsampled to 600Hz and bandpass filter 1-300Hz
