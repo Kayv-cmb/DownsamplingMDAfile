@@ -14,6 +14,7 @@ You need to add the file mdaio to the python path
 
 ## Running the script
 Directory = Path to file you want to downsample
+
 Name = name of the mda file without the number of the tetrode (EXEMPLE = name = 'Rat_Hm_Ephys_Rat2_389237_20200915_postsleep.nt3.mda' -> 'Rat_Hm_Ephys_Rat2_389237_20200915_postsleep.nt'
 
 You can modify the directory, the name of the name file and the list of tetrode according to the file you want to doznsampled and run the script.
