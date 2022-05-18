@@ -8,7 +8,7 @@ Created on Mon May  9 16:32:55 2022
 import os, sys, json
 import numpy as np
 import pandas as pd
-import mdaio 
+from mountainlab_pytools import mdaio 
 from scipy import signal
 from scipy.signal import butter, lfilter
 from timeit import default_timer as timer
@@ -39,10 +39,11 @@ def main():
         f = os.path.join(directory, filename)
         # checking if it is a file
         extension = f[-4:]
+        check = f[-14:]
         if os.path.isfile(f):
             print(f)
             start = timer()
-            if extension == '.mda':
+            if extension == '.mda' and check != 'timestamps.mda':
                 
                 studyday = filename[25:33]
                 postsleep = mdaio.readmda(f)
