@@ -8,7 +8,7 @@ Created on Mon May  9 16:32:55 2022
 import os, sys, json
 import numpy as np
 import pandas as pd
-from mountainlab_pytools import mdaio 
+import mdaio 
 from scipy import signal
 from scipy.signal import butter, lfilter
 from timeit import default_timer as timer
